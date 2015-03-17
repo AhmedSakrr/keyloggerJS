@@ -5,7 +5,7 @@
 * Need to gather information on the interactions of your users ?
 * Or for any reason, KeyloggerJS interests you ?
 
-KeyloggerJS is divided into modules. Of bases, the modules availables are ***http***, ***dom***, ***WebStorage***, ***keylog***, ***mouse***, and everyone is free to propose new ones.
+KeyloggerJS is structured into submodules. The modules availables are - for now - ***http***, ***dom***, ***WebStorage***, ***keylog***, ***mouse***, and everyone is free to propose new.
 
 ## How to use it ?
 You can read the [documentation](https://github.com/solikate/keyloggerJS/wiki) and consult the [site](http://solikate.github.io/keyloggerJS/) for more informations !
