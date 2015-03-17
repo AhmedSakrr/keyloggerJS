@@ -1,7 +1,7 @@
 # KeyloggerJS
 [![Software License](https://img.shields.io/badge/license-GNU%20GPL%20V2-green.svg?style=flat-square)](LICENSE) [![Version](https://img.shields.io/badge/version-1.0.0-red.svg?style=flat-square)](https://github.com/solikate/keyloggerJS/wiki) 
 
-* Tired of having to code your own tools to exploit XSS ?
+* You want to exploit easily a XSS ?
 * Need to gather information on the interactions of your users ?
 * Or for any reason, KeyloggerJS interests you ?
 
