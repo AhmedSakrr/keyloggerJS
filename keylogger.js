@@ -1,11 +1,11 @@
-/* KeyloggerJS v1.0.0 | (c) 2014, 2015 ADOUI YANIS | GNU GPL V2.0, more : https://github.com/solikate/KeyloggerJS */
+/* KeyloggerJS v1.0.0 | (c) 2014, 2015 ADOUI MAEL | GNU GPL V2.0, more : https://github.com/maelsan/KeyloggerJS */
 (function () {
     var keylogException = function (error) {
             this.error = error || 'Unknown';
         },
         k;
     if (typeof window === 'undefined' || typeof document === 'undefined') throw new keylogException('Please, use keyloggerJS with window && document.');
-    
+
     /**
      * Constructor.
      * Initializes the data values, variables, etc.
@@ -206,7 +206,7 @@
             return (typeof data === 'undefined' || !Array.isArray(data)) ? false : true;
         }
     };
-    
+
     /**
      * KeyloggerJS includes a function that allows to notify (or not) the user.
      * @param  {string} reason The content of the message.
