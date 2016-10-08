@@ -1,7 +1,7 @@
 # KeyloggerJS
 [![Software License](https://img.shields.io/badge/licence-GPLV2-blue.svg)](LICENSE)
 
-KeyloggerJS is developed in native Javascript (ES5). It's not a `npm` module, but just a client-side library that you can use by any standard integration (or not.... ;-]). KeyloggerJS is structured into submodules. The modules availables are:
+KeyloggerJS is developed in native Javascript (ES5). It's not a `npm` module, but just a client-side library that you can use by any standard integration (or not.... ;-]). KeyloggerJS is structured into submodules. Modules availables are:
 
 - ***http***
 - ***dom***
