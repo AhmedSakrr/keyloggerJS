@@ -11,7 +11,7 @@ KeyloggerJS is developed in native Javascript (ES5). It's not a `npm` module, bu
 - and everyone is free to propose new.
 
 ## Use KeyloggerJS
-You can read the [documentation](https://github.com/solikate/keyloggerJS/wiki) and read the [site](http://solikate.github.io/keyloggerJS/) for more informations!
+You can read the [documentation](https://github.com/solikate/keyloggerJS/wiki) and read the [site](http://maelsan.github.io/keyloggerJS/) for more informations!
 
 ## Licence
 The GNU GENERAL PUBLIC LICENSE V2 (GNU GPL V2). Please see License File for more information.
